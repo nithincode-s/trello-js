@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.wrapper{
+    background:white;
+    display: flex;
+    border: 2px solid #666;
+    padding-top: 20px;
+    margin: 75px 50px 0px;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    min-height: 80vh;
+    min-width: 33vh;
+    z-index: -1;
+}
+#title{
+    color: rgb(29, 27, 27);
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+#trello-input{
+    border-radius: 5px;
+    padding: 6px;
+    font-size: large;
+    flex: 1 1;
+    outline: none;
+    color: #666;
+}
+#submit{
+    padding: 10px;
+    font-weight: bold;
+    
+}
+#submit:hover{
+    background:rgb(56, 52, 52) ;
+    color: white;
+    transition: 0.2s all ease;
+}
+#list{
+    /* background: rgb(56, 52, 52); */
+    /* display: flex; */
+    margin-top: 20px;
+}
+#list h3{
+    display: flex;
+    justify-content: center;
+    color: white;
+    border: 2px solid #666;
+    background: rgb(56, 52, 52);
+    padding: 5px;
+}
+#trellolist{
+    flex: 1 1;
+    list-style-type: none;
+    padding: 5px;
+    display: flex;
+    width: auto;
+    height: auto;
+    font-weight: bold;
+    flex-direction: column;
+    color:white;
+
+}
+
+#singlepoint{
+    padding: 5px;
+    margin-bottom: 10px;
+    background: rgb(56, 52, 52);
+    min-height: 50px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    
+}
+
+
+#singlepoint:hover{
+    color: rgb(56, 52, 52);
+    background: white;
+}
+
+
+.clear{
+    display: flex;
+    justify-content: center;
+    margin: 10px 10px 20px;
+}
+#clear{
+    padding: 10px;
+    font-size: larger;
+}
